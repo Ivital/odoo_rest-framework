@@ -22,3 +22,40 @@ msgstr "Документи"
 #: model:ir.model,name:base_rest.model_rest_service_registration
 msgid "REST Services Registration Model"
 msgstr "Модель реєстрації REST-сервісів"
+
+#. module: base_rest
+#. odoo-python
+#: code:addons/base_rest/restapi.py:0
+msgid "BadRequest %s"
+msgstr "Некоректний запит %s"
+
+#. module: base_rest
+#. odoo-python
+#: code:addons/base_rest/restapi.py:0
+msgid "BadRequest item %(idx)s :%(errors)s"
+msgstr "Елемент BadRequest %(idx)s: %(errors)s"
+
+#. module: base_rest
+#. odoo-python
+#: code:addons/base_rest/restapi.py:0
+msgid "BadRequest: Not enough items in the list (%(current)s < %(expected)s)"
+msgstr ""
+"BadRequest: недостатньо елементів у списку (%(current)s < %(expected)s)"
+
+#. module: base_rest
+#. odoo-python
+#: code:addons/base_rest/restapi.py:0
+msgid "BadRequest: Too many items in the list (%(current)s > %(expected)s)"
+msgstr "BadRequest: забагато елементів у списку (%(current)s > %(expected)s)"
+
+#. module: base_rest
+#. odoo-python
+#: code:addons/base_rest/restapi.py:0
+msgid "Invalid Response %s"
+msgstr "Недійсна відповідь %s"
+
+#. module: base_rest
+#. odoo-python
+#: code:addons/base_rest/restapi.py:0
+msgid "Unable to get cerberus schema from %s"
+msgstr "Не вдалося отримати схему Cerberus із %s"

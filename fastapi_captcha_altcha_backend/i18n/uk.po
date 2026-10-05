@@ -34,3 +34,27 @@ msgstr "Бібліотеку Altcha не встановлено."
 #: model:ir.model.fields,help:fastapi_captcha_altcha_backend.field_fastapi_endpoint__captcha_type
 msgid "Type of captcha to use for this endpoint"
 msgstr "Тип captcha для цієї кінцевої точки"
+
+#. module: fastapi_captcha_altcha_backend
+#. odoo-python
+#: code:addons/fastapi_captcha_altcha_backend/models/fastapi_endpoint.py:0
+msgid "Altcha validation failed: %(error)s"
+msgstr "Перевірка Altcha не пройдена: %(error)s"
+
+#. module: fastapi_captcha_altcha_backend
+#. odoo-python
+#: code:addons/fastapi_captcha_altcha_backend/routers/altcha.py:0
+msgid "Captcha secret key is not set for this endpoint."
+msgstr "Секретний ключ Captcha не налаштовано для цієї кінцевої точки."
+
+#. module: fastapi_captcha_altcha_backend
+#. odoo-python
+#: code:addons/fastapi_captcha_altcha_backend/routers/altcha.py:0
+msgid "Failed to create Altcha challenge."
+msgstr "Не вдалося створити виклик Altcha."
+
+#. module: fastapi_captcha_altcha_backend
+#. odoo-python
+#: code:addons/fastapi_captcha_altcha_backend/models/fastapi_endpoint.py:0
+msgid "Failed to process Altcha payload: %(error)s"
+msgstr "Не вдалося обробити дані Altcha: %(error)s"

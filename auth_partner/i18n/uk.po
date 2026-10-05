@@ -441,3 +441,34 @@ msgstr "Ласкаво просимо"
 #: model:ir.model,name:auth_partner.model_wizard_auth_partner_reset_password
 msgid "Wizard Partner Auth Reset Password"
 msgstr "Майстер скидання пароля автентифікації партнера"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/models/auth_partner.py:0
+msgid "Invalid Login or Password"
+msgstr "Неправильний логін або пароль"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/models/auth_directory.py:0
+msgid "No email template defined for %(template)s in %(directory)s"
+msgstr ""
+"Для %(template)s у %(directory)s не визначено шаблон електронного листа"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
+msgid "No id in context"
+msgstr "У контексті немає ID"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/wizards/wizard_auth_partner_force_set_password.py:0
+msgid "Password and Confirm Password must be the same"
+msgstr "Пароль і підтвердження пароля мають збігатися"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/models/auth_partner.py:0
+msgid "You are not allowed to impersonate this user"
+msgstr "Вам не дозволено діяти від імені цього користувача"

@@ -69,3 +69,59 @@ msgstr ""
 #: model:ir.model.fields,help:fastapi_captcha.field_fastapi_endpoint__captcha_secret_key
 msgid "Secret key to use for the captcha validation"
 msgstr "Секретний ключ для перевірки captcha"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid "Altcha (%(url)s) validation failed: %(error)s"
+msgstr "Перевірка Altcha (%(url)s) не пройшла: %(error)s"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/captcha_middleware.py:0
+msgid "Captcha token not found in headers"
+msgstr "Токен Captcha не знайдено в заголовках"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/captcha_middleware.py:0
+msgid "Captcha validation failed: %s"
+msgstr "Перевірка Captcha не пройдена: %s"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid "Hcaptcha validation failed: %s"
+msgstr "Перевірка Hcaptcha не пройдена: %s"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid ""
+"Hcaptcha validation failed: score %(score)s < %(min_score)s (%(reason)s)"
+msgstr ""
+"Перевірка Hcaptcha не пройшла: оцінка %(score)s < %(min_score)s (%(reason)s)"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid "Invalid regex for captcha routes: %(regex)s (error: %(error)s)"
+msgstr "Недійсний regex для маршрутів captcha: %(regex)s (помилка: %(error)s)"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid "No secret key found for this endpoint"
+msgstr "Не знайдено секретного ключа для цієї кінцевої точки"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid "Recaptcha validation failed: %s"
+msgstr "Перевірка Recaptcha не пройдена: %s"
+
+#. module: fastapi_captcha
+#. odoo-python
+#: code:addons/fastapi_captcha/models/fastapi_endpoint.py:0
+msgid "Recaptcha validation failed: score %(score)s < %(min_score)s"
+msgstr "Перевірка Recaptcha не пройшла: оцінка %(score)s < %(min_score)s"

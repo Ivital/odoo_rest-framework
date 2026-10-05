@@ -215,3 +215,38 @@ msgstr "Майстер входу від імені партнера"
 #: model:ir.model,name:fastapi_auth_partner.model_wizard_auth_partner_reset_password
 msgid "Wizard Partner Auth Reset Password"
 msgstr "Майстер скидання пароля автентифікації партнера"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+msgid "Impersonation successful"
+msgstr "Імперсонація успішна"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/routers/auth.py:0
+msgid "No cookie secret key defined"
+msgstr "Секретний ключ cookie не визначено"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+msgid "Only admin can impersonate locally"
+msgstr ""
+"Лише адміністратор може локально працювати від імені іншого користувача"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+msgid "Please install base_future_response for local impersonate to work"
+msgstr "Встановіть base_future_response для роботи локальної імперсонації"
+
+#. module: fastapi_auth_partner
+#. odoo-python
+#: code:addons/fastapi_auth_partner/models/auth_partner.py:0
+msgid ""
+"You are now impersonating %s\n"
+"%%s"
+msgstr ""
+"Тепер ви працюєте від імені %s\n"
+"%%s"

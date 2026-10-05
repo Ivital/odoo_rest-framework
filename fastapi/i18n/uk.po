@@ -198,3 +198,15 @@ msgstr ""
 "це не потрібно й поведінку можна вимкнути. Крім того, вимкнення цього "
 "параметра запобігає зайвим операціям вводу-виводу під час запису та читання "
 "сеансу з диска й неочікуваному споживанню дискового простору."
+
+#. module: fastapi
+#. odoo-python
+#: code:addons/fastapi/models/fastapi_endpoint_demo.py:0
+msgid "The authentication method is required for app %(app)s"
+msgstr "Для застосунку %(app)s потрібен метод автентифікації"
+
+#. module: fastapi
+#. odoo-python
+#: code:addons/fastapi/models/fastapi_endpoint.py:0
+msgid "`%(name)s` uses a blacklisted root_path = `%(root_path)s`"
+msgstr "`%(name)s` використовує root_path із чорного списку = `%(root_path)s`"

@@ -23,3 +23,15 @@ msgstr "Група ключів API автентифікації"
 msgid "If not set, all 'auth.api.key' are allowed to access to endpoints"
 msgstr ""
 "Якщо не встановлено, усім 'auth.api.key' дозволено доступ до кінцевих точок"
+
+#. module: fastapi_auth_api_key
+#. odoo-python
+#: code:addons/fastapi_auth_api_key/dependencies.py:0
+msgid "Missing %(HTTP_API_KEY_HEADER)s header"
+msgstr "Відсутній заголовок %(HTTP_API_KEY_HEADER)s"
+
+#. module: fastapi_auth_api_key
+#. odoo-python
+#: code:addons/fastapi_auth_api_key/dependencies.py:0
+msgid "Unauthorized"
+msgstr "Неавторизовано"
