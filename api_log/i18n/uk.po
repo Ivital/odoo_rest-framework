@@ -169,3 +169,48 @@ msgstr "Дата відповіді"
 #: model:ir.model.fields,field_description:api_log.field_api_log__response_time
 msgid "Response Time"
 msgstr "Час відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_content_length
+msgid "Request Content Length"
+msgstr "Довжина вмісту запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_headers_preview
+msgid "Request Headers Preview"
+msgstr "Попередній перегляд заголовків запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_b64
+msgid "Response Content"
+msgstr "Вміст відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_content_length
+msgid "Response Content Length"
+msgstr "Довжина вмісту відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_content_type
+msgid "Response Content Type"
+msgstr "Тип вмісту відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_headers
+msgid "Response Headers"
+msgstr "Заголовки відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_headers_preview
+msgid "Response Headers Preview"
+msgstr "Попередній перегляд заголовків відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_preview
+msgid "Response Preview"
+msgstr "Попередній перегляд відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_status_code
+msgid "Response Status Code"
+msgstr "Код статусу відповіді"

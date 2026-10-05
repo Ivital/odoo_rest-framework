@@ -128,3 +128,33 @@ msgstr "Публічна URL API"
 #: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__sliding_session
 msgid "Sliding Session"
 msgstr "Ковзний сеанс"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__demo_auth_method
+msgid "Authentication method"
+msgstr "Метод автентифікації"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__cookie_secret_key
+msgid "Cookie Secret Key"
+msgstr "Секретний ключ cookie"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_auth_directory__fastapi_endpoint_ids
+msgid "FastAPI Endpoints"
+msgstr "Кінцеві точки FastAPI"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_partner_view_form
+msgid "Local Impersonate"
+msgstr "Локальне уособлення"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
+msgid "Please choose an endpoint:"
+msgstr "Будь ласка, виберіть endpoint:"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_directory_view_form
+msgid "Regenerate cookie secret key"
+msgstr "Перегенерувати секретний ключ cookie"

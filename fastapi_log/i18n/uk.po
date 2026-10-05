@@ -33,3 +33,8 @@ msgstr "Журналювати запити"
 #: model:ir.model.fields,field_description:fastapi_log.field_fastapi_endpoint__log_ids
 msgid "Logs"
 msgstr "Журнали"
+
+#. module: fastapi_log
+#: model_terms:ir.ui.view,arch_db:fastapi_log.fastapi_endpoint_form_view
+msgid "<span class=\"o_stat_text\">Logs</span>"
+msgstr "<span class=\"o_stat_text\">Журнали</span>"

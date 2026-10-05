@@ -22,3 +22,18 @@ msgstr "Використовувати CAPTCHA"
 #: model:ir.model.fields.selection,name:fastapi_captcha.selection__fastapi_endpoint__captcha_type__recaptcha
 msgid "Recaptcha"
 msgstr "ReCAPTCHA"
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,field_description:fastapi_captcha.field_fastapi_endpoint__captcha_minimum_score
+msgid "Captcha Minimum Score"
+msgstr "Мінімальний бал CAPTCHA"
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,field_description:fastapi_captcha.field_fastapi_endpoint__captcha_routes_regex
+msgid "Captcha Routes Regex"
+msgstr "Regex маршрутів CAPTCHA"
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,field_description:fastapi_captcha.field_fastapi_endpoint__captcha_secret_key
+msgid "Captcha Secret Key"
+msgstr "Секретний ключ CAPTCHA"

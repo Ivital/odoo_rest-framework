@@ -234,3 +234,87 @@ msgstr "Типові значення серверного середовища"
 #: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
 msgid "Set Password"
 msgstr "Встановити пароль"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
+msgid ""
+"An email will be send with a token to each customer, you can specify the "
+"date until the link is valid"
+msgstr ""
+"Кожному клієнту буде надіслано лист із токеном; можна вказати дату, до якої "
+"посилання буде дійсним"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__date_last_impersonation
+msgid "Date Last Impersonation"
+msgstr "Дата останньої імперсонації"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__date_last_request_reset_pwd
+msgid "Date Last Request Reset Pwd"
+msgstr "Дата останнього запиту скидання пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__date_last_sucessfull_reset_pwd
+msgid "Date Last Sucessfull Reset Pwd"
+msgstr "Дата останнього успішного скидання пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__force_verified_email
+msgid "Force Verified Email"
+msgstr "Примусово перевірений email"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__impersonating_token_duration
+msgid "Impersonating Token Duration"
+msgstr "Тривалість токена імперсонації"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__reset_password_template_id
+msgid "Mail Template Forget Password"
+msgstr "Шаблон листа забутого пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__set_password_template_id
+msgid "Mail Template New Password"
+msgstr "Шаблон листа нового пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__validate_email_template_id
+msgid "Mail Template Validate Email"
+msgstr "Шаблон листа перевірки email"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__nbr_pending_reset_sent
+msgid "Nbr Pending Reset Sent"
+msgstr "Кількість очікуваних скидань, надісланих"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
+msgid "Regenerate secret key"
+msgstr "Повторно створити секретний ключ"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
+msgid "Send Reset Password"
+msgstr "Надіслати скидання пароля"
+
+#. module: auth_partner
+#: model:ir.actions.act_window,name:auth_partner.auth_partner_action_reset_password
+msgid "Send Reset Password Instruction"
+msgstr "Надіслати інструкцію зі скидання пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__set_password_token_duration
+msgid "Set Password Token Duration"
+msgstr "Тривалість токена встановлення пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__user_can_impersonate
+msgid "User Can Impersonate"
+msgstr "Користувач може уособлювати"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__x_secret_key_env_is_editable
+msgid "X Secret Key Env Is Editable"
+msgstr "Чи редагується X Secret Key Env"
