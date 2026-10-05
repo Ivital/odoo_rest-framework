@@ -99,3 +99,73 @@ msgstr "Час"
 #: model_terms:ir.ui.view,arch_db:api_log.api_log_view_search
 msgid "Url"
 msgstr "URL"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__collection_model
+msgid "Collection Model"
+msgstr "Модель колекції"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__collection_ref
+msgid "Collection Ref"
+msgstr "Посилання колекції"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_body
+msgid "Request Body"
+msgstr "Тіло запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_b64
+msgid "Request Content"
+msgstr "Вміст запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_content_type
+msgid "Request Content Type"
+msgstr "Тип вмісту запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_headers
+msgid "Request Headers"
+msgstr "Заголовки запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_method
+msgid "Request Method"
+msgstr "Метод запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_preview
+msgid "Request Preview"
+msgstr "Попередній перегляд запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__request_time
+msgid "Request Time"
+msgstr "Час запиту"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_body
+msgid "Response Body"
+msgstr "Тіло відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_date
+msgid "Response Date"
+msgstr "Дата відповіді"
+
+#. module: api_log
+#: model:ir.model.fields,field_description:api_log.field_api_log__response_time
+msgid "Response Time"
+msgstr "Час відповіді"

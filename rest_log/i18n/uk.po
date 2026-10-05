@@ -119,3 +119,73 @@ msgstr "Користувач"
 #: model:ir.model.fields.selection,name:rest_log.selection__rest_log__severity__warning
 msgid "Warning"
 msgstr "Попередження"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__collection_id
+msgid "Collection ID"
+msgstr "ID колекції"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__exception_message
+msgid "Exception Message"
+msgstr "Повідомлення винятку"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Exception message"
+msgstr "Повідомлення винятку"
+
+#. module: rest_log
+#: model:ir.model.fields.selection,name:rest_log.selection__rest_log__severity__functional
+msgid "Functional"
+msgstr "Функціональний"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: rest_log
+#: model:ir.actions.act_window,name:rest_log.action_rest_log
+msgid "REST Logs"
+msgstr "Журнали REST"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__request_method
+msgid "Request Method"
+msgstr "Метод запиту"
+
+#. module: rest_log
+#: model:ir.model.fields.selection,name:rest_log.selection__rest_log__severity__severe
+msgid "Severe"
+msgstr "Критичний"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Severe errors"
+msgstr "Критичні помилки"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Today"
+msgstr "Сьогодні"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_form_view
+msgid "View collection"
+msgstr "Переглянути колекцію"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Warning errors"
+msgstr "Помилки-попередження"

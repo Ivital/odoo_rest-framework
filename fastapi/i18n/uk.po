@@ -102,3 +102,30 @@ msgstr "Кореневий шлях"
 #: model:res.groups,name:fastapi.group_fastapi_user
 msgid "User"
 msgstr "Користувач"
+
+#. module: fastapi
+#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_search_view
+msgid "Group by..."
+msgstr "Групувати за..."
+
+#. module: fastapi
+#: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: fastapi
+#: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: fastapi
+#: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__registry_sync
+msgid "Registry Sync"
+msgstr "Синхронізація реєстру"
+
+#. module: fastapi
+#: model:ir.actions.server,name:fastapi.fastapi_endpoint_action_sync_registry
+#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_form_view
+#: model_terms:ir.ui.view,arch_db:fastapi.fastapi_endpoint_tree_view
+msgid "Sync Registry"
+msgstr "Синхронізувати реєстр"

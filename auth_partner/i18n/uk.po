@@ -101,3 +101,136 @@ msgstr "Пароль"
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__secret_key
 msgid "Secret Key"
 msgstr "Секретний ключ"
+
+#. module: auth_partner
+#: model:ir.model.fields.selection,name:auth_partner.selection__wizard_auth_partner_reset_password__delay__14-days
+msgid "14 Days"
+msgstr "14 днів"
+
+#. module: auth_partner
+#: model:ir.model.fields.selection,name:auth_partner.selection__wizard_auth_partner_reset_password__delay__2-days
+msgid "2-days"
+msgstr "2 дні"
+
+#. module: auth_partner
+#: model:ir.model.fields.selection,name:auth_partner.selection__wizard_auth_partner_reset_password__delay__6-hours
+msgid "6 Hours"
+msgstr "6 годин"
+
+#. module: auth_partner
+#: model:ir.model.fields.selection,name:auth_partner.selection__wizard_auth_partner_reset_password__delay__7-days
+msgid "7 Days"
+msgstr "7 днів"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
+#: model_terms:ir.ui.view,arch_db:auth_partner.view_partner_form
+msgid "<span class=\"o_stat_text\">Accounts</span>"
+msgstr "<span class=\"o_stat_text\">Рахунки</span>"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_res_partner__auth_partner_count
+#: model:ir.model.fields,field_description:auth_partner.field_res_users__auth_partner_count
+msgid "Auth Partner Count"
+msgstr "Кількість партнерів автентифікації"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__auth_partner_ids
+msgid "Auth Partners"
+msgstr "Авторизовані контрагенти"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
+#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_reset_password_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__password_confirm
+msgid "Confirm Password"
+msgstr "Підтвердити пароль"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__count_partner
+msgid "Count Partner"
+msgstr "Кількість контрагентів"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__date_validity
+msgid "Date Validity"
+msgstr "Строк дії"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_form
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_directory_view_search
+msgid "Directory Auth"
+msgstr "Автентифікація каталогу"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__encrypted_password
+msgid "Encrypted Password"
+msgstr "Зашифрований пароль"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_form
+msgid "Impersonate"
+msgstr "Увійти від імені"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__impersonating_user_ids
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__impersonating_user_ids
+msgid "Impersonating Users"
+msgstr "Користувачі, від імені яких виконуються дії"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_uid
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__write_uid
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__write_uid
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__write_date
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__write_date
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_force_set_password__write_date
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_wizard_auth_partner_reset_password__template_id
+msgid "Mail Template"
+msgstr "Шаблон листа"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_partner__mail_verified
+msgid "Mail Verified"
+msgstr "Пошту підтверджено"
+
+#. module: auth_partner
+#: model:ir.model.fields.selection,name:auth_partner.selection__wizard_auth_partner_reset_password__delay__manually
+msgid "Manually"
+msgstr "Вручну"
+
+#. module: auth_partner
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_form
+msgid "Send Invite"
+msgstr "Надіслати запрошення"
+
+#. module: auth_partner
+#: model:ir.model.fields,field_description:auth_partner.field_auth_directory__server_env_defaults
+msgid "Server Env Defaults"
+msgstr "Типові значення серверного середовища"
+
+#. module: auth_partner
+#: model:ir.actions.act_window,name:auth_partner.auth_partner_force_set_password_action
+#: model_terms:ir.ui.view,arch_db:auth_partner.auth_partner_view_form
+#: model_terms:ir.ui.view,arch_db:auth_partner.wizard_auth_partner_force_set_password_view_form
+msgid "Set Password"
+msgstr "Встановити пароль"
