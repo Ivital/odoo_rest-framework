@@ -12,3 +12,33 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_api_log_mail
 msgid "Notify logged exceptions."
 msgstr "Сповіщає про зареєстровані винятки."
+
+#. module: api_log_mail
+#: model:ir.model.fields,field_description:api_log_mail.field_api_log__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: api_log_mail
+#: model:ir.model.fields,field_description:api_log_mail.field_api_log__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: api_log_mail
+#: model:ir.model.fields,field_description:api_log_mail.field_api_log__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: api_log_mail
+#: model:ir.model.fields,field_description:api_log_mail.field_api_log__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: api_log_mail
+#: model:ir.model.fields,field_description:api_log_mail.field_api_log__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: api_log_mail
+#: model:ir.model.fields,field_description:api_log_mail.field_api_log__message_ids
+msgid "Messages"
+msgstr "Повідомлення"

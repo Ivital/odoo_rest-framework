@@ -1,0 +1,121 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__collection
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Collection"
+msgstr "Колекція"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Date"
+msgstr "Дата"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__error
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_form_view
+msgid "Error"
+msgstr "Помилка"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__exception_name
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Exception"
+msgstr "Виняток"
+
+#. module: rest_log
+#: model:ir.model.fields.selection,name:rest_log.selection__rest_log__state__failed
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Failed"
+msgstr "Невдалі"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__headers
+msgid "Headers"
+msgstr "Заголовки"
+
+#. module: rest_log
+#: model:ir.ui.menu,name:rest_log.menu_rest_api_log
+msgid "Logs"
+msgstr "Журнали"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_form_view
+msgid "Parameters"
+msgstr "Параметри"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__params
+msgid "Params"
+msgstr "Параметри"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__request_url
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Request URL"
+msgstr "URL запиту"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__result
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_form_view
+msgid "Result"
+msgstr "Результат"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__severity
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Severity"
+msgstr "Критичність"
+
+#. module: rest_log
+#: model:ir.model.fields,field_description:rest_log.field_rest_log__state
+msgid "State"
+msgstr "Стан"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "Status"
+msgstr "Статус"
+
+#. module: rest_log
+#: model:ir.model.fields.selection,name:rest_log.selection__rest_log__state__success
+msgid "Success"
+msgstr "Успішно"
+
+#. module: rest_log
+#: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
+msgid "User"
+msgstr "Користувач"
+
+#. module: rest_log
+#: model:ir.model.fields.selection,name:rest_log.selection__rest_log__severity__warning
+msgid "Warning"
+msgstr "Попередження"

@@ -1,0 +1,78 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__app
+msgid "App"
+msgstr "Застосунок"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__auth_partner_id
+msgid "Auth Partner"
+msgstr "Автентифікація партнера"
+
+#. module: fastapi_auth_partner
+#: model:ir.ui.menu,name:fastapi_auth_partner.fastapi_auth
+msgid "Authentication"
+msgstr "Автентифікація"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_auth_service__directory_id
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__directory_id
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__auth_directory_id
+#: model:ir.ui.menu,name:fastapi_auth_partner.auth_directory_menu
+msgid "Directory"
+msgstr "Каталог"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_wizard_auth_partner_impersonate__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_auth_service__endpoint_id
+msgid "Endpoint"
+msgstr "Кінцева точка"
+
+#. module: fastapi_auth_partner
+#: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.wizard_auth_partner_impersonate_view_form
+msgid "Label"
+msgstr "Мітка"
+
+#. module: fastapi_auth_partner
+#: model:ir.ui.menu,name:fastapi_auth_partner.auth_partner_menu
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields.selection,name:fastapi_auth_partner.selection__fastapi_endpoint__demo_auth_method__auth_partner
+msgid "Partner Auth"
+msgstr "Автентифікація партнера"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,field_description:fastapi_auth_partner.field_fastapi_endpoint__public_url
+msgid "Public Url"
+msgstr "Публічний URL"
