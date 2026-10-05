@@ -17,3 +17,9 @@ msgstr ""
 #: model:ir.model.fields,field_description:fastapi_auth_api_key.field_fastapi_endpoint__auth_api_key_group_id
 msgid "Auth Api Key Group"
 msgstr "Група ключів API автентифікації"
+
+#. module: fastapi_auth_api_key
+#: model:ir.model.fields,help:fastapi_auth_api_key.field_fastapi_endpoint__auth_api_key_group_id
+msgid "If not set, all 'auth.api.key' are allowed to access to endpoints"
+msgstr ""
+"Якщо не встановлено, усім 'auth.api.key' дозволено доступ до кінцевих точок"

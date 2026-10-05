@@ -158,3 +158,60 @@ msgstr "Будь ласка, виберіть endpoint:"
 #: model_terms:ir.ui.view,arch_db:fastapi_auth_partner.auth_directory_view_form
 msgid "Regenerate cookie secret key"
 msgstr "Перегенерувати секретний ключ cookie"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_auth_directory
+msgid "Auth Directory"
+msgstr "Каталог автентифікації"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_fastapi_auth_service
+msgid "Fastapi Auth Service"
+msgstr "Служба автентифікації FastAPI"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_auth_directory__cookie_duration
+msgid "In minute, default 525600 minutes => 1 year"
+msgstr "У хвилинах, за замовчуванням 525600 хвилин => 1 рік"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_fastapi_endpoint__is_auth_partner
+msgid "Technical field to know if the auth method is partner"
+msgstr "Технічне поле для визначення, чи метод автентифікації — partner"
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_fastapi_endpoint__public_api_url
+msgid ""
+"The public URL of the API.\n"
+"This URL is used in impersonation to set the cookie on the right API domain if you use a reverse proxy to serve the API.\n"
+"Defaults to the public_url if not set or the odoo url if not set either."
+msgstr ""
+"Публічна URL-адреса API.\n"
+"Ця URL-адреса використовується під час impersonation, щоб установити cookie у правильному домені API, якщо для обслуговування API використовується reverse proxy.\n"
+"Якщо не задано, типово використовується public_url, а якщо й його не задано — URL Odoo."
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_fastapi_endpoint__public_url
+msgid ""
+"The public URL of the site.\n"
+"This URL is used for the impersonation final redirect. And can also be used in the mail template to construct links.\n"
+"Default to the public_api_url if not set or the odoo url if not set either."
+msgstr ""
+"Публічна URL-адреса сайту.\n"
+"Ця URL-адреса використовується для фінального перенаправлення під час impersonation. Її також можна використовувати в шаблоні електронного листа для побудови посилань.\n"
+"Якщо не задано, типово використовується public_api_url, а якщо й його не задано — URL Odoo."
+
+#. module: fastapi_auth_partner
+#: model:ir.model.fields,help:fastapi_auth_partner.field_auth_directory__cookie_secret_key
+msgid "The secret key used to sign the cookie"
+msgstr "Секретний ключ для підпису cookie"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_wizard_auth_partner_impersonate
+msgid "Wizard Partner Auth Impersonate"
+msgstr "Майстер входу від імені партнера"
+
+#. module: fastapi_auth_partner
+#: model:ir.model,name:fastapi_auth_partner.model_wizard_auth_partner_reset_password
+msgid "Wizard Partner Auth Reset Password"
+msgstr "Майстер скидання пароля автентифікації партнера"

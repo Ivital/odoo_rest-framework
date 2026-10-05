@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 18.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"PO-Revision-Date: 2026-10-05 16:45+0000\n"
 "Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
@@ -13,12 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
-#. module: base_rest
-#: model:ir.ui.menu,name:base_rest.menu_rest_api_docs
-msgid "Docs"
-msgstr "Документи"
-
-#. module: base_rest
-#: model:ir.model,name:base_rest.model_rest_service_registration
-msgid "REST Services Registration Model"
-msgstr "Модель реєстрації REST-сервісів"
+#. module: extendable
+#: model:ir.model,name:extendable.model_extendable_registry_loader
+msgid "Extendable Registry Loader"
+msgstr "Завантажувач розширюваного реєстру"

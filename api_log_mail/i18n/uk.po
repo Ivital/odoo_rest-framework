@@ -172,3 +172,22 @@ msgstr ""
 #: model:ir.model.fields,help:api_log_mail.field_api_log__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Тип дії-винятку для запису."
+
+#. module: api_log_mail
+#: model:ir.model.fields,help:api_log_mail.field_api_log_collection_mixin__api_log_mail_exception_activity_type_id
+#: model:ir.model.fields,help:api_log_mail.field_fastapi_endpoint__api_log_mail_exception_activity_type_id
+msgid "An activity of this type will be created when an error is logged."
+msgstr "Активність цього типу буде створена, коли буде зареєстровано помилку."
+
+#. module: api_log_mail
+#: model:ir.model.fields,help:api_log_mail.field_api_log_collection_mixin__api_log_mail_exception_template_id
+#: model:ir.model.fields,help:api_log_mail.field_fastapi_endpoint__api_log_mail_exception_template_id
+msgid "An email based on this template will be sent when an error is logged."
+msgstr ""
+"Електронний лист на основі цього шаблону буде надіслано, коли буде "
+"зареєстровано помилку."
+
+#. module: api_log_mail
+#: model:ir.model,name:api_log_mail.model_api_log_collection_mixin
+msgid "Collection of API logs"
+msgstr "Колекція журналів API"

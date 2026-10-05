@@ -22,3 +22,15 @@ msgstr "Altcha (локально)"
 #: model:ir.model.fields,field_description:fastapi_captcha_altcha_backend.field_fastapi_endpoint__captcha_type
 msgid "Captcha Type"
 msgstr "Тип Captcha"
+
+#. module: fastapi_captcha_altcha_backend
+#. odoo-python
+#: code:addons/fastapi_captcha_altcha_backend/models/fastapi_endpoint.py:0
+#: code:addons/fastapi_captcha_altcha_backend/routers/altcha.py:0
+msgid "Altcha library is not installed."
+msgstr "Бібліотеку Altcha не встановлено."
+
+#. module: fastapi_captcha_altcha_backend
+#: model:ir.model.fields,help:fastapi_captcha_altcha_backend.field_fastapi_endpoint__captcha_type
+msgid "Type of captcha to use for this endpoint"
+msgstr "Тип captcha для цієї кінцевої точки"

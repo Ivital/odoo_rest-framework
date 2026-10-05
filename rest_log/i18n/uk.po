@@ -204,3 +204,8 @@ msgstr "Функціональні помилки"
 #: model_terms:ir.ui.view,arch_db:rest_log.rest_log_search_view
 msgid "Logs generated today"
 msgstr "Журнали, створені сьогодні"
+
+#. module: rest_log
+#: model:res.groups,name:rest_log.group_rest_log_manager
+msgid "REST Log Manager"
+msgstr "Менеджер журналу REST"

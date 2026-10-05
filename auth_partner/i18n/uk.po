@@ -318,3 +318,126 @@ msgstr "Користувач може уособлювати"
 #: model:ir.model.fields,field_description:auth_partner.field_auth_directory__x_secret_key_env_is_editable
 msgid "X Secret Key Env Is Editable"
 msgstr "Чи редагується X Secret Key Env"
+
+#. module: auth_partner
+#: model:res.groups,name:auth_partner.group_auth_partner_api
+msgid "API Partner Auth Access"
+msgstr "Доступ автентифікації партнера API"
+
+#. module: auth_partner
+#: model:res.groups,name:auth_partner.group_auth_partner_manager
+msgid "API Partner Auth Manager"
+msgstr "Менеджер автентифікації партнера API"
+
+#. module: auth_partner
+#: model:mail.template,name:auth_partner.email_reset_password
+msgid "Auth Directory: Reset Password"
+msgstr "Каталог автентифікації: скинути пароль"
+
+#. module: auth_partner
+#: model:mail.template,name:auth_partner.email_set_password
+msgid "Auth Directory: Set Password"
+msgstr "Каталог автентифікації: встановити пароль"
+
+#. module: auth_partner
+#: model:mail.template,name:auth_partner.email_validate_email
+msgid "Auth Directory: Validate Email"
+msgstr "Каталог автентифікації: перевірити email"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__date_last_request_reset_pwd
+msgid "Date of the last password reset request"
+msgstr "Дата останнього запиту на скидання пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__date_last_impersonation
+msgid "Date of the last sucessfull impersonation"
+msgstr "Дата останнього успішного входу від імені користувача"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__date_last_sucessfull_reset_pwd
+msgid "Date of the last sucessfull password reset"
+msgstr "Дата останнього успішного скидання пароля"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_directory__force_verified_email
+msgid "If checked, email must be verified to be able to log in"
+msgstr "Якщо позначено, для входу електронну адресу потрібно підтвердити"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_directory__set_password_token_duration
+msgid "In minute, default 1440 minutes => 24h"
+msgstr "У хвилинах, за замовчуванням 1440 хвилин => 24 год"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_directory__impersonating_token_duration
+msgid "In seconds, default 60 seconds"
+msgstr "У секундах, за замовчуванням 60 секунд"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/models/auth_directory.py:0
+msgid "Invalid Token"
+msgstr "Недійсний токен"
+
+#. module: auth_partner
+#. odoo-python
+#: code:addons/auth_partner/models/auth_directory.py:0
+msgid "Invalid token"
+msgstr "Недійсний токен"
+
+#. module: auth_partner
+#: model:ir.model.constraint,message:auth_partner.constraint_auth_partner_directory_login_uniq
+msgid "Login must be uniq per directory !"
+msgstr "Логін має бути унікальним у каталозі!"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__nbr_pending_reset_sent
+msgid ""
+"Number of pending reset sent from your customer.This field is usefull when "
+"after a migration from an other system you ask all you customer to reset "
+"their password and you senddifferent mail depending on the number of "
+"reminder"
+msgstr ""
+"Кількість невиконаних запитів на скидання, надісланих вашому клієнту. Це "
+"поле корисне, коли після міграції з іншої системи ви просите всіх клієнтів "
+"скинути пароль і надсилаєте різні листи залежно від кількості нагадувань."
+
+#. module: auth_partner
+#: model:mail.template,subject:auth_partner.email_reset_password
+msgid "Reset Password"
+msgstr "Скинути пароль"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__user_can_impersonate
+msgid "Technical field to check if the user can impersonate"
+msgstr ""
+"Технічне поле для перевірки, чи може користувач входити від імені іншого"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_directory__impersonating_user_ids
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__impersonating_user_ids
+msgid "These odoo users can impersonate any partner of this directory"
+msgstr ""
+"Ці користувачі Odoo можуть уособлювати будь-якого партнера цього каталогу"
+
+#. module: auth_partner
+#: model:ir.model.fields,help:auth_partner.field_auth_partner__mail_verified
+msgid ""
+"This field is set to True when the user has clicked on the link sent by "
+"email"
+msgstr ""
+"Це поле встановлюється в True, коли користувач натиснув посилання, надіслане"
+" електронною поштою"
+
+#. module: auth_partner
+#: model:mail.template,subject:auth_partner.email_set_password
+#: model:mail.template,subject:auth_partner.email_validate_email
+msgid "Welcome"
+msgstr "Ласкаво просимо"
+
+#. module: auth_partner
+#: model:ir.model,name:auth_partner.model_wizard_auth_partner_force_set_password
+#: model:ir.model,name:auth_partner.model_wizard_auth_partner_reset_password
+msgid "Wizard Partner Auth Reset Password"
+msgstr "Майстер скидання пароля автентифікації партнера"

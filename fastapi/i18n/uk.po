@@ -157,3 +157,44 @@ msgstr "Потрібна синхронізація реєстру"
 #: model:ir.model.fields,field_description:fastapi.field_fastapi_endpoint__save_http_session
 msgid "Save HTTP Session"
 msgstr "Зберігати HTTP-сесію"
+
+#. module: fastapi
+#: model:ir.model.fields,help:fastapi.field_fastapi_endpoint__description
+msgid "A short description of the API. It can use Markdown"
+msgstr "Короткий опис API. Може використовувати Markdown"
+
+#. module: fastapi
+#: model:res.groups,name:fastapi.group_fastapi_endpoint_runner
+msgid "FastAPI Endpoint Runner"
+msgstr "Runner кінцевої точки FastAPI"
+
+#. module: fastapi
+#: model:ir.module.category,description:fastapi.module_category_fastapi
+msgid "Helps you manage your Fastapi Endpoints"
+msgstr "Допомагає керувати кінцевими точками FastAPI"
+
+#. module: fastapi
+#: model:ir.model.fields,help:fastapi.field_fastapi_endpoint__name
+msgid "The title of the API."
+msgstr "Назва API."
+
+#. module: fastapi
+#: model:ir.model.fields,help:fastapi.field_fastapi_endpoint__user_id
+msgid "The user to use to execute the API calls."
+msgstr "Користувач для виконання викликів API."
+
+#. module: fastapi
+#: model:ir.model.fields,help:fastapi.field_fastapi_endpoint__save_http_session
+msgid ""
+"Whether session should be saved into the session store. This is required if "
+"for example you use the Odoo's authentication mechanism. Oherwise chance are"
+" high that you don't need it and could turn off this behaviour. Additionaly "
+"turning off this option will prevent useless IO operation when storing and "
+"reading the session on the disk and prevent unexpecteed disk space "
+"consumption."
+msgstr ""
+"Визначає, чи слід зберігати сеанс у сховищі сеансів. Це потрібно, наприклад,"
+" якщо використовується механізм автентифікації Odoo. Інакше, найімовірніше, "
+"це не потрібно й поведінку можна вимкнути. Крім того, вимкнення цього "
+"параметра запобігає зайвим операціям вводу-виводу під час запису та читання "
+"сеансу з диска й неочікуваному споживанню дискового простору."

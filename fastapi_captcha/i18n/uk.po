@@ -37,3 +37,35 @@ msgstr "Regex маршрутів CAPTCHA"
 #: model:ir.model.fields,field_description:fastapi_captcha.field_fastapi_endpoint__captcha_secret_key
 msgid "Captcha Secret Key"
 msgstr "Секретний ключ CAPTCHA"
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,help:fastapi_captcha.field_fastapi_endpoint__captcha_custom_verify_url
+msgid "Custom URL to use for the captcha verification"
+msgstr "Власна URL-адреса для перевірки captcha"
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,help:fastapi_captcha.field_fastapi_endpoint__use_captcha
+msgid "If checked, this endpoint will be protected by a captcha"
+msgstr "Якщо позначено, ця кінцева точка буде захищена CAPTCHA"
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,help:fastapi_captcha.field_fastapi_endpoint__captcha_minimum_score
+msgid ""
+"Minimum score to accept the captcha if a score is provided by the captcha "
+"service."
+msgstr ""
+"Мінімальний бал для прийняття CAPTCHA, якщо сервіс CAPTCHA повертає оцінку."
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,help:fastapi_captcha.field_fastapi_endpoint__captcha_routes_regex
+msgid ""
+"Regexes to match against routes url that should be protected by this "
+"captcha, comma separated. If empty, all routes will be protected"
+msgstr ""
+"Регулярні вирази для зіставлення з URL маршрутів, які мають бути захищені "
+"цією CAPTCHA, розділені комами. Якщо порожньо, буде захищено всі маршрути."
+
+#. module: fastapi_captcha
+#: model:ir.model.fields,help:fastapi_captcha.field_fastapi_endpoint__captcha_secret_key
+msgid "Secret key to use for the captcha validation"
+msgstr "Секретний ключ для перевірки captcha"

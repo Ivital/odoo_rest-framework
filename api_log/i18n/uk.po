@@ -214,3 +214,13 @@ msgstr "Попередній перегляд відповіді"
 #: model:ir.model.fields,field_description:api_log.field_api_log__response_status_code
 msgid "Response Status Code"
 msgstr "Код статусу відповіді"
+
+#. module: api_log
+#: model:res.groups,name:api_log.group_api_log
+msgid "API Log Access"
+msgstr "Доступ до журналу API"
+
+#. module: api_log
+#: model:ir.model.fields,help:api_log.field_api_log_collection_mixin__log_requests
+msgid "Log requests in database."
+msgstr "Записувати запити до бази даних."
